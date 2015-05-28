@@ -7,3 +7,63 @@ $anim-time: 0.5s;
 
 @import "base";
 @import "mediaqueries";
+
+
+.practice-title {
+  .right {
+    text-align: right;
+    margin-right: 15%;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .indent {
+    margin-left: 18%;
+  }
+
+  .date-sub {
+    position: relative;
+    top: -24px;
+    right: 65px;
+    font-size: 12px;
+  }
+  
+  .spec {
+    line-height: 12px;
+  }
+
+  .comission {
+    position: relative;
+    font-size: 12px;
+    top: -25px;
+    left: 326px;
+  }
+
+  .new-part {
+    padding-top: 15px;
+  }
+
+  .sign {
+    position: relative;
+    top: -26px;
+    font-size: 12px;
+    left: 135px;
+
+     span {
+       font-size: 10px;
+       padding-left: 22px;
+     }
+  }
+
+  .protocol {
+    position: relative;
+    top: -26px;
+    font-size: 12px;
+    left: 100px;
+    span {
+      padding-left: 80px;
+    }
+  }
+}

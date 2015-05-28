@@ -100,26 +100,26 @@ $viewport_xxl: 	$item_width * 6 + $sidebar_width; /* 6 columns */
 	}
 }
 
-@media screen and (min-width: $viewport_l) {
-	/* 4 columns */
+/*@media screen and (min-width: $viewport_l) {
+	/!* 4 columns *!/
 	.grid__item {
 		width: 25%;
 	}
 }
 
 @media screen and (min-width: $viewport_xl) {
-	/* 5 columns */
+	/!* 5 columns *!/
 	.grid__item {
 		width: 20%;
 	}
 }
 
 @media screen and (min-width: $viewport_xxl) {
-	/* 6 columns */
+	/!* 6 columns *!/
 	.grid__item {
 		width: 16.66%;
 	}
-}
+}*/
 
 /* small screen changes for sidebar (it becomes an off-canvas menu) */
 @media screen and (max-width: $viewport_xs - 1px) {
