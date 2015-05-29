@@ -72,6 +72,10 @@ $anim-time: 0.5s;
    font-weight: bold;
  }
 
+.italic {
+  font-style: italic;
+}
+
 .center {
   text-align: center !important;
 }
@@ -101,4 +105,18 @@ li ol > li {
 
 li ol > li:before {
   content: counters(item, ".") " ";
+}
+
+.additional {
+  padding-top: 20px;
+}
+
+.right-float {
+  float: right;
+}
+
+.practice-table th,
+.practice-table td {
+  border: 1px solid #ddd;
+  text-align: center;
 }

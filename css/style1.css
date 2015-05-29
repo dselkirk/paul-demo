@@ -549,12 +549,10 @@ button:focus {
   padding: 60px 60px 80px 60px;
   pointer-events: none;
   font-size: 0.85em; }
-  .content__item p {
+  .content__item p, .content__item div {
     max-width: 1200px;
     margin: 1em auto;
     text-align: justify; }
-  .content__item p:first-of-type {
-    font-size: 1.35em; }
 
 .content__item.content__item--show {
   height: auto;
@@ -882,6 +880,9 @@ button:focus {
 .bold {
   font-weight: bold; }
 
+.italic {
+  font-style: italic; }
+
 .center {
   text-align: center !important; }
 
@@ -906,5 +907,16 @@ li ol > li {
 
 li ol > li:before {
   content: counters(item,".") " "; }
+
+.additional {
+  padding-top: 20px; }
+
+.right-float {
+  float: right; }
+
+.practice-table th,
+.practice-table td {
+  border: 1px solid #ddd;
+  text-align: center; }
 
 /*# sourceMappingURL=style1.css.map */
