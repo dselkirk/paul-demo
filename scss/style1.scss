@@ -80,6 +80,10 @@ $anim-time: 0.5s;
   text-align: center !important;
 }
 
+ul {
+  list-style-type: none;
+}
+
 ol {
   list-style-type: none;
   counter-reset: item;

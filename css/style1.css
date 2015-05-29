@@ -886,6 +886,9 @@ button:focus {
 .center {
   text-align: center !important; }
 
+ul {
+  list-style-type: none; }
+
 ol {
   list-style-type: none;
   counter-reset: item;
