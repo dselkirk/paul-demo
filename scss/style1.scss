@@ -1,6 +1,6 @@
 $item_width: 300px;
 $sidebar_width: 300px;
-$color_primary: #f5f5f5;
+$color_primary: #FBC02D;
 $color_secondary: #fff;
 $color_link: #81c483;
 $anim-time: 0.5s;
@@ -21,7 +21,7 @@ $anim-time: 0.5s;
 
   .date-sub {
     position: relative;
-    top: -24px;
+    top: -17px;
     right: 65px;
     font-size: 12px;
   }
@@ -33,7 +33,7 @@ $anim-time: 0.5s;
   .comission {
     position: relative;
     font-size: 12px;
-    top: -25px;
+    top: -17px;
     left: 326px;
   }
 
@@ -43,7 +43,7 @@ $anim-time: 0.5s;
 
   .sign {
     position: relative;
-    top: -26px;
+    top: -18px;
     font-size: 12px;
     left: 135px;
 
@@ -55,7 +55,7 @@ $anim-time: 0.5s;
 
   .protocol {
     position: relative;
-    top: -26px;
+    top: -18px;
     font-size: 12px;
     left: 100px;
     span {
@@ -66,6 +66,7 @@ $anim-time: 0.5s;
 
 .practice-info {
   padding-top: 60px;
+  font-size: 20px;
 }
 
 .bold {

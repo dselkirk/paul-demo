@@ -18,10 +18,10 @@
 
 body {
   background: #fff;
-  color: #7b7b7b;
+  color: #424242;
   font-weight: 400;
   font-size: 16px;
-  font-family: "Martel Sans", Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
@@ -48,7 +48,7 @@ button:focus {
 /* Sidebar */
 .sidebar {
   text-align: center;
-  background: #f5f5f5;
+  background: #FBC02D;
   z-index: 1000;
   position: fixed;
   width: 300px;
@@ -432,7 +432,7 @@ button:focus {
 .meta__misc--seperator {
   padding: 20px 0 0;
   margin: 65px 0 0;
-  border-top: 1px solid #f5f5f5; }
+  border-top: 1px solid #FBC02D; }
 
 .article-nav {
   display: -webkit-flex;
@@ -724,7 +724,7 @@ button:focus {
     background: none;
     border: none;
     width: 240px;
-    background: #f5f5f5; }
+    background: #FBC02D; }
 
   body #cdawrap .carbon-text {
     color: #7b7b7b; }
@@ -831,7 +831,7 @@ button:focus {
     top: 0;
     right: 0;
     background: #fff;
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid #FBC02D;
     width: 100vw;
     height: 50px;
     pointer-events: none;
@@ -846,7 +846,7 @@ button:focus {
   margin-left: 18%; }
 .practice-title .date-sub {
   position: relative;
-  top: -24px;
+  top: -17px;
   right: 65px;
   font-size: 12px; }
 .practice-title .spec {
@@ -854,13 +854,13 @@ button:focus {
 .practice-title .comission {
   position: relative;
   font-size: 12px;
-  top: -25px;
+  top: -17px;
   left: 326px; }
 .practice-title .new-part {
   padding-top: 15px; }
 .practice-title .sign {
   position: relative;
-  top: -26px;
+  top: -18px;
   font-size: 12px;
   left: 135px; }
   .practice-title .sign span {
@@ -868,14 +868,15 @@ button:focus {
     padding-left: 22px; }
 .practice-title .protocol {
   position: relative;
-  top: -26px;
+  top: -18px;
   font-size: 12px;
   left: 100px; }
   .practice-title .protocol span {
     padding-left: 80px; }
 
 .practice-info {
-  padding-top: 60px; }
+  padding-top: 60px;
+  font-size: 20px; }
 
 .bold {
   font-weight: bold; }
